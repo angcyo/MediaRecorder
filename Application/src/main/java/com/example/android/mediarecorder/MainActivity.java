@@ -188,7 +188,7 @@ public class MainActivity extends Activity {
             // with {@link SurfaceView}
             mCamera.setPreviewTexture(mPreview.getSurfaceTexture());
         } catch (IOException e) {
-            Log.e(TAG, "Surface texture is unavailable or unsuitable e:" + e.getMessage());
+            Log.e(TAG, "Surface texture is unavailable or unsuitable" + e.getMessage());
             return false;
         }
         // END_INCLUDE (configure_preview)
